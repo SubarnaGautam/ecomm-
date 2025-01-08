@@ -1,0 +1,151 @@
+@media (max-width:768px) {
+    body{
+        margin: auto;
+    }
+    .header{
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+    }
+    
+    .navbar {
+        
+        font-size: 0.5rem;
+        background-color: #f8f8f8;
+
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        padding: auto;
+        gap: auto;
+    }
+    .sarih1{
+       display: none;
+    }
+
+    .nav {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 9px;
+        background-color: #e0d0d0;
+        padding: 15px;
+    }
+    .dropdown-btn {
+  
+        color: white;
+        border: none;
+        padding: 10px 15px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+
+    }
+    .bigimg img{
+        height: 40vh;
+        width: 100%;
+        
+    }
+    .bigimg-container{
+        width: 100%;
+        margin:auto;
+    }
+    .bigimg-container h2{
+       
+        font-size: 1.5rem;
+        text-align: center;
+
+     
+    }
+    .selection-container, .selection-container2{
+        
+     
+       
+        gap: 2rem;
+   
+        justify-content: center;
+    
+        font-size: 1rem;
+        text-align: center;
+    
+        width: 100%;
+        padding:0;
+        margin: auto;
+    }
+        .sari1 img, .sari2 img{
+            height: 12rem;
+    
+    }
+    .sliding-container{
+        padding: 0;
+        width: 100%;
+        margin: auto;
+    }
+
+    .rolling-text{
+        display:inline-block;
+        overflow: visible;
+       
+     
+        animation: rolling 5s linear infinite;
+    }
+   
+    
+    @keyframes rolling {
+        0% {
+          transform: translateX(100%); /* Start off-screen to the right */
+        }
+        100% {
+          transform: translateX(-100%); /* Move off-screen to the left */
+        }
+      }
+
+    .elegance-container{
+        width: 100%;
+        padding: 0;
+        font-size: 1rem;
+        text-align:center;
+        flex-wrap: wrap;
+        margin:auto;
+       
+    }
+    .elegance-container button{
+        margin-bottom: 2rem;
+    }
+
+    .elegance{
+       width: 100%;
+    }
+    .menswear-container{
+        font-size: 1rem;
+        
+        width: 100%;
+         padding: 0;
+         margin: auto;
+
+    
+    }
+    .menswear-container img{
+        height: 40vh;
+        width: 70%;
+    }
+
+    
+    .mens-btn a{
+
+        
+        
+        font-size: 0.6rem;
+        padding: 10px 3px;
+       
+        text-align: center;
+    }
+    .footer {
+       
+        text-align: center;
+        font-size: 1rem;
+        padding: auto;
+       
+    }
+
+}

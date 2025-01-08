@@ -25,7 +25,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 20px;
+padding: 10px;
     background-color: #f8f8f8;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     position: sticky;
@@ -43,7 +43,7 @@ body {
 
 
 .navbar button {
-    background-color: #007bff;
+    background-color: #0c437c;
     color: white;
     border: none;
     padding: 10px 15px;
@@ -57,7 +57,7 @@ body {
 }
 
 /* Centered Title */
-.sari-h1 {
+.sarih1 {
     margin: 0;
     font-size: 20px;
     color: #333;
@@ -115,7 +115,7 @@ body {
 
 /* Dropdown Buttons */
 .dropdown-btn {
-    background-color: #007bff;
+    background-color: #df3e59;
     color: white;
     border: none;
     padding: 10px 15px;
@@ -123,6 +123,7 @@ body {
     cursor: pointer;
     transition: background-color 0.3s;
 }
+
 
 .dropdown-btn:hover {
     background-color: #0056b3;
@@ -132,24 +133,31 @@ body {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #ffffff;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
+    background-color: #ffffff00;
+    box-shadow: 0 4px 6px rgba(35, 1, 1, 0.1);
+    border-radius: 2px;
     padding: 10px 0;
     margin-top: 5px;
     z-index: 1000;
 }
 
 .dropdown-content a {
+    background-color: #ebe5e5b4;
+    width: 5rem;
+    margin: 0.3rem;
     display: block;
-    padding: 10px 20px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    padding: 2px 30px;
     text-decoration: none;
-    color: #333;
+    color: #000000;
     transition: background-color 0.3s;
+    text-align: justify;
+    
 }
 
 .dropdown-content a:hover {
-    background-color: #f1f1f1;
+    background-color: #bd7e7e;
 }
 
 /* Positioning */
@@ -164,7 +172,7 @@ body {
 
 
 .bigimg img{
-    height: 100vh;
+    height: 60vh;
     width: 100%;
 }
 .bigimg-container{
@@ -172,10 +180,12 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #ebe5e5;
+    text-align: center;
 }
 .bigimg-container button{
     margin-bottom: 2rem;
-    background-color: #007bff;
+    background-color: #df3e59;
     color: white;
     border: none;
     padding: 10px 15px;
@@ -183,15 +193,21 @@ body {
     cursor: pointer;
     transition: background-color 0.3s;
 }
-.selection-container{
+.selection-container, .selection-container2{
     display: flex;
     flex-direction: row;
+    
     justify-content: flex-start;
     overflow:scroll;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    gap:1rem;
+    text-align: center;
 
     width: 100%;
+
 }
-.sari1 img{
+.sari1 img, .sari2 img{
     height: 20rem;
 
 }
@@ -218,7 +234,9 @@ body {
     width: 100%;
     display: flex;
     align-items: center;
-    background-color: #ddd;
+    background-color: #d63131;
+    color: #ddd;
+    padding: 2rem;
    
    
   
@@ -244,8 +262,10 @@ body {
     background-color: #ebe5e5;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     text-align: center;
+    font-size: 1.5rem;
    
     flex-wrap: wrap;
     padding: 2rem 4rem;
@@ -254,21 +274,88 @@ body {
 .elegance{
     justify-content: center;
 }
+.elegance-container button {
+    background-color: #df3e59;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+
+
+.menswear-container{
+    background-color: #787474;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+   
+    flex-wrap: wrap;
+    padding: 2rem 4rem;
+    color: white;
+    
+}
+
+.menswear-container button{
+    margin-bottom: 2rem;
+    background-color: #df3e59;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 1rem;
+}
+.menswear-container img{
+    height: 60vh;
+    width: auto;
+}
+   
+
+
+  
+
+
+.mens-btn a{
+    background-color: #df3e59;
+    text-decoration: none;
+    color: white;
+    border: none;
+padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 1rem;
+
+}
+.mens-btn a:hover{
+    background-color: #386da7;
+
+}
+
+
 
 
 .footer {
     background-color: #282c34;
     color: white;
     text-align: center;
-    padding: 20px 0;
+    width: 100%;
     position: relative;
     bottom: 0;
     width: 100%;
 }
 
 .footer-content {
-    max-width: 1200px;
-    margin: 0 auto;
+    width: 100%;
+    margin: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
